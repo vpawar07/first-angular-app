@@ -50,4 +50,8 @@ export class Tasks {
   onAddNewTask(){
     this.isAddingNewTask = true;
   }
+
+  onCancelNewTask(){
+    this.isAddingNewTask =false;
+  }
 }
